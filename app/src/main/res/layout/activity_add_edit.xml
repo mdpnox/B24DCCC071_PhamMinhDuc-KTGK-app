@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <Spinner android:id="@+id/spType" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+
+    <EditText android:id="@+id/etId" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Mã nhân viên"/>
+    <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Họ tên"/>
+    <EditText android:id="@+id/etBaseSalary" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lương cơ bản" android:inputType="numberDecimal"/>
+
+    <EditText android:id="@+id/etDynamicField" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Số ngày công / Phụ cấp / Số giờ làm" android:inputType="numberDecimal"/>
+
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LƯU"/>
+</LinearLayout>
